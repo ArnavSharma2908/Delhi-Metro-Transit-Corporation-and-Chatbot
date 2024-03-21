@@ -1,0 +1,134 @@
+-Cover page
+Name of school,logo,subject,topic,details and name of teammates,session,date
+
+-Preface
+
+-Certificate
+
+-Aknowledgment
+Gratitude towards our teachers,principal for their guidance and laboratory facilities
+
+-Index/Contents
+
+-Hardware & Software Requirements and Development
+=Hardware Requirments
+Desktop/Laptop with following peripherals
+Webcam
+Microphone
+Speakers/Headphone/Earphone
+
+=Software Requirements
+1)Operating System-Windows-8/Windows-8.1/Windows-10/Windows-11
+2)To compile the code and IDLE
+Python3 for windows
+3)For Database Managment
+RDBMS Software MySQL for windows
+4)Active Internet Connection (Atleast 25Mbps Recommended)
+5)Required Drivers
+
+=Development Perfomed Under Windows-10 with Python 3.11.1 and MySQL 8.0
+
+
+
+-Introduction to Metro Transit
+(What is Metro and others Details)
+
+-Objective of the project DMTC
+
+-Scope of the project
+Will be explained via Images
+
+-System Design, Interface and Execution
+(GUI, Chatbot,etc.)
+
+-Modules and Libraries Used
+following modules were used throught the project
+matplotlib
+PySimpleGUI
+random
+...etc
+
+-Following Self Created Modules were used
+Modules
+GUI
+Metrobot.py
+FAQ
+snake.py
+flappybird.py
+
+-Following application programming interface (API) products were used
+openweathermap.org
+newsapi.org
+
+-Databases and Support Files Used
+1) DMTC Stations CS Database.csv File
+for Line information about stations and Mapping Coordinates of Stations. Works For Main Functionalities
+
+2) MySQL database
+For Log Dumping
+
+3) bin_dmtc_templogs.dat binary file
+for log dumping in case of Connectivity issues with MySQL
+When Connectivity is Rectified and Established The data is then transfered to MySQL Database and this binary file is removed
+
+4) jokes.txt
+Will be Working for chatbot(as discussed Earlier in system design) to display jokes
+This file will be working with Module(will be discussed ahead) pyjokes for better Output
+
+5) Remember file.dat
+Will be Working for chatbot to remember any statement if asked by dumping the statements
+
+6) notes.txt
+Will be Working for chatbot to Make notes if ordered
+
+7)...(inludes png files and wav files and others..)...etc
+
+
+-BackEnd Action Plan
+(Flowchart of All the files, databases, Pyfiles to show their connections)
+
+
+-User Manual
+
+
+-SOURCE CODE
+
+DMTC main.py
+...code...
+
+As Discussed Earlier in BackEnd Action Plan main program is supported via other Self Created Modules for programing in ordered manner
+1) Modules
+...code...
+
+2) GUI
+...code...
+
+3) Metrobot
+...code...
+
+
+
+-Output Screen
+
+-Future Scope and Plans
+Things that may be added to improve functionalities of project on metro
+
+-Conclusion
+...
+
+-Refrences-
+Places from where Data was scraped
+1) https://www.delhimetrorail.com/
+Data for DMTC csv file was extracted from above offical website of delhi metro along with name of lineroute of stations
+route lines included are - Red Line, Yellow Line, Blue Line (Branched Line Included), Green Line (Branched Line Included), Violet Line, Pink Line, Magenta Line, Grey Line
+
+2) https://www.google.com/maps/@28.5904684,77.181938,10.36z
+Map Coordinates Data for DMTC csv file was extracted from google maps.
+Map Coordinates Were used to Get Distance between 2 stations, fares and plot route on map.
+
+3) https://www.delhimetrorail.com/faq
+For chatbot (named Metrobot) above site was used to analyse the common queries about Metro Transit expected by user for Chatbot and to answer them
+
+4) ....
+
+-QRCode of program
