@@ -1,8 +1,8 @@
 # Delhi-Metro-Transit-Corporation-and-Chatbot
 
-❤Hi there I am Arnav and this is my first project and nostalgia of my life
-❤My project is filled of bugs of which I am proud of. This taught me a lot.
-❤Feel free to contribute and connect
+🖤Hi there I am Arnav and this is my first project and nostalgia of my life
+🖤My project is filled of bugs of which I am proud of. This taught me a lot.
+🖤Feel free to contribute and connect
 
 This project is about working and application of Delhi Metro
 The Delhi Metro serves as a lifeline for millions of people residing in Delhi and the National Capital Region (NCR). This project was developed using the Python programming language with the goal of providing commuters in Delhi NCR, primarily those traveling on the Delhi Metro, with comprehensive information and analysis for their professional and tourism-related journeys throughout the city. It particularly focuses on connecting residential areas to office regions, which are often located in nearby capital regions like Noida, Gurugram, and even Faridabad.
